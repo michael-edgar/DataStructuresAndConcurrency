@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="414787f4-c9be-480d-b04c-0d38a8b91de0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/LinkedList/CP3LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/Lab3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructuresAndConcurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAndConcurrency.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/Labs/Lab1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/Lab 1 Looking at Java’s ArrayList and LinkedList.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/Lab1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/filehandlingcode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/LinkedList/CP3LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LinkedList/CP3LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/Lab1/Lab1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/Lab1/Lab1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList1$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList1$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/CP3LinkedList1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/ListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresAndConcurrency/LinkedList/ListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/DataStructuresAndConcurrency/LinkedList/CP3LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/DataStructuresAndConcurrency/LinkedList/CP3LinkedListTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,31 +28,32 @@
     <session id="1325905335">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3596" />
+          <entry key="java" value="4224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3596" />
+          <entry key="JAVA" value="4224" />
         </counts>
       </usages-collector>
     </session>
@@ -53,35 +61,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Labs/LinkedList/CP3LinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/Labs/Lab3/Lab3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/LinkedList/CP3LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="412">
+              <caret line="158" column="45" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#1375#1376#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Labs/LinkedList/ListDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/Labs/Lab1/Lab1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="106">
+              <caret line="154" column="4" selection-start-line="154" selection-start-column="4" selection-end-line="166" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +89,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,9 +108,10 @@
         <option value="$PROJECT_DIR$/src/Labs/Lab1.java" />
         <option value="$PROJECT_DIR$/src/Labs/LinkedList/CP3LinkedList1.java" />
         <option value="$PROJECT_DIR$/src/Labs/LinkedList/ListDemo.java" />
+        <option value="$PROJECT_DIR$/src/Labs/LinkedList/CP3LinkedList.java" />
         <option value="$PROJECT_DIR$/src/Labs/Lab1/Lab1.java" />
         <option value="$PROJECT_DIR$/Tests/LinkedList/CP3LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/Labs/LinkedList/CP3LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Labs/Lab3/Lab3.java" />
       </list>
     </option>
   </component>
@@ -132,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,13 +139,47 @@
               <item name="DataStructuresAndConcurrency" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructuresAndConcurrency" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataStructuresAndConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresAndConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresAndConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresAndConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresAndConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresAndConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,13 +188,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537789733353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538393744933" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -182,7 +217,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CP3LinkedListTest.sizeMany">
+  <component name="RunManager" selected="Application.Lab3">
+    <configuration name="Lab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Lab3" />
+      <module name="DataStructuresAndConcurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CP3LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndConcurrency" />
       <extension name="coverage">
@@ -193,22 +241,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="LinkedList" />
       <option name="MAIN_CLASS_NAME" value="LinkedList.CP3LinkedListTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CP3LinkedListTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructuresAndConcurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkedList" />
-      <option name="MAIN_CLASS_NAME" value="LinkedList.CP3LinkedListTest" />
-      <option name="METHOD_NAME" value="print" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,17 +296,17 @@
     <list>
       <item itemvalue="JUnit.CP3LinkedListTest" />
       <item itemvalue="JUnit.CP3LinkedListTest.removeFirst" />
-      <item itemvalue="JUnit.CP3LinkedListTest.print" />
       <item itemvalue="JUnit.CP3LinkedListTest.sizeEmpty" />
       <item itemvalue="JUnit.CP3LinkedListTest.sizeMany" />
+      <item itemvalue="Application.Lab3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab3" />
         <item itemvalue="JUnit.CP3LinkedListTest.sizeMany" />
         <item itemvalue="JUnit.CP3LinkedListTest" />
         <item itemvalue="JUnit.CP3LinkedListTest.sizeEmpty" />
         <item itemvalue="JUnit.CP3LinkedListTest.removeFirst" />
-        <item itemvalue="JUnit.CP3LinkedListTest.print" />
       </list>
     </recent_temporary>
   </component>
@@ -291,6 +323,8 @@
       <workItem from="1536576723757" duration="3550000" />
       <workItem from="1537784844289" duration="985000" />
       <workItem from="1537786147100" duration="3932000" />
+      <workItem from="1538389578169" duration="1522000" />
+      <workItem from="1538391155432" duration="2469000" />
     </task>
     <servers />
   </component>
@@ -327,12 +361,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8467000" />
+    <option name="totallyTimeSpent" value="12458000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.45565552" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1391258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,8 +375,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32981783" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,7 +385,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32981783" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32941177" />
+      <window_info anchor="bottom" id="Mypy" order="12" />
+      <window_info active="true" anchor="bottom" id="Run with VisualVM" order="13" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -360,6 +398,8 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.45565552" />
@@ -400,13 +440,17 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Labs/Lab1.java" />
-    <entry file="file://$PROJECT_DIR$/src/Labs/Lab1/Lab1.java">
+    <entry file="file://$PROJECT_DIR$/src/Labs/LinkedList/CP3LinkedList1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="172">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Labs/LinkedList/CP3LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -417,31 +461,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs/LinkedList/CP3LinkedList1.java">
+    <entry file="file://$PROJECT_DIR$/src/Labs/Lab3/Test.java" />
+    <entry file="file://$PROJECT_DIR$/Tests/LinkedList/CP3LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="21">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/LinkedList/CP3LinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Labs/Lab1/Lab1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="106">
+          <caret line="154" column="4" selection-start-line="154" selection-start-column="4" selection-end-line="166" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs/LinkedList/CP3LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/Labs/Lab3/Lab3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        <state relative-caret-position="412">
+          <caret line="158" column="45" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

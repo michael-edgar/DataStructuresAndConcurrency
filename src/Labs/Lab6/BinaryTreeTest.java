@@ -14,5 +14,18 @@ public class BinaryTreeTest {
         myTree.insert("Sean");
         myTree.insertIterative("Juliet");
         myTree.insert("Eve");
+
+        myTree.contains("Juliet");
+        myTree.contains("Adam");
+        myTree.contains("Jim");
+
+        myTree.containsRecursion("Juliet");
+        myTree.containsRecursion("Adam");
+        myTree.containsRecursion("Jim");
+
+        //myTree.print();
+        myTree.printPre();
+        //myTree.printPost();
+        myTree.printNonRecursive();
     }
 }

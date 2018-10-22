@@ -1,5 +1,7 @@
 package Lab6;
 
+import java.util.Deque;
+
 public class BinaryTree <E extends Comparable<E>> {
     private class Node {
         public E data;
@@ -98,8 +100,7 @@ public class BinaryTree <E extends Comparable<E>> {
         }
     }
 
-    public boolean contains (E element)
-    {
+    public boolean contains (E element) {
         Node newNode = new Node();
         newNode.data = element;
         boolean results = false;
@@ -137,5 +138,108 @@ public class BinaryTree <E extends Comparable<E>> {
             }
         }
         return results;
+    }
+
+    public boolean containsRecursion(E element) {
+        Node newNode = new Node();
+        newNode.data = element;
+        boolean returnResult = false;
+
+        if(root != null)
+        {
+            returnResult = containsSub(newNode, root);
+        }
+
+        return returnResult;
+    }
+
+    private boolean containsSub (Node newNode, Node currentNode) {
+        int result = currentNode.data.compareTo(newNode.data);
+        boolean returnResult = false;
+        if(result > 0) {
+            if(currentNode.left == null) {
+                return false;
+            }
+            else {
+                containsSub(newNode, currentNode.left);
+            }
+        }
+        else if (result < 0) {
+            if(currentNode.right == null) {
+                return false;
+            }
+            else {
+                containsSub(newNode, currentNode.right);
+            }
+        }
+
+        else {
+            returnResult = true;
+        }
+
+        return returnResult;
+    }
+
+    //code from Cathryn's BinarySearchTree class
+    public void print() {
+        if (root != null)
+            printSub(root);
+    }
+
+    private void printSub(Node node) {
+        if (node != null) {
+            printSub(node.left);
+            System.out.println(node.data);
+            printSub(node.right);
+        }
+    }
+
+    //my code
+
+    public void printPre() {
+        if (root != null)
+            printSubPre(root);
+    }
+
+    private void printSubPre(Node node) {
+        if (node != null) {
+            System.out.println(node.data);
+            printSubPre(node.left);
+            printSubPre(node.right);
+        }
+    }
+
+    public void printPost() {
+        if (root != null)
+            printSubPost(root);
+    }
+
+    private void printSubPost(Node node) {
+        if (node != null) {
+            printSubPost(node.left);
+            printSubPost(node.right);
+            System.out.println(node.data);
+        }
+    }
+
+    public void printNonRecursive() {
+        Node currentNode = root;
+
+        Deque<Node> queue = null;
+
+        while(currentNode != null) {
+            queue.add(currentNode);
+            if(currentNode.left != null) {
+                currentNode = currentNode.left;
+            }
+            else if(currentNode.right != null) {
+                currentNode = currentNode.right;
+            }
+            else
+            {
+                System.out.println(currentNode.data);
+                queue.removeLast();
+            }
+        }
     }
 }

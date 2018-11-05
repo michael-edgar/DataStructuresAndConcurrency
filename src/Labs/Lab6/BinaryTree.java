@@ -239,15 +239,23 @@ public class BinaryTree <E extends Comparable<E>> {
                 stack.addFirst(currentNode.left);
             }
 
-            else if(currentNode.right!= null)
-            {
-                stack.addFirst(currentNode.right);
-            }
-
             else
             {
                 System.out.println(currentNode.data);
                 stack.removeFirst();
+
+                currentNode = stack.getFirst();
+
+                if(currentNode.right!= null)
+                {
+                    stack.addFirst(currentNode.right);
+                }
+
+                else
+                {
+                    System.out.println(currentNode.data);
+                    stack.removeFirst();
+                }
             }
         }
     }

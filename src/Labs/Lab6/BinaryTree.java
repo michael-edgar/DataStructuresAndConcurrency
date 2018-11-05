@@ -1,6 +1,7 @@
 package Lab6;
 
 import java.util.Deque;
+import java.util.LinkedList;
 
 public class BinaryTree <E extends Comparable<E>> {
     private class Node {
@@ -158,23 +159,24 @@ public class BinaryTree <E extends Comparable<E>> {
         boolean returnResult = false;
         if(result > 0) {
             if(currentNode.left == null) {
-                return false;
+                returnResult = false;
             }
             else {
-                containsSub(newNode, currentNode.left);
+                returnResult = containsSub(newNode, currentNode.left);
             }
         }
         else if (result < 0) {
             if(currentNode.right == null) {
-                return false;
+                returnResult = false;
             }
             else {
-                containsSub(newNode, currentNode.right);
+                returnResult = containsSub(newNode, currentNode.right);
             }
         }
 
         else {
             returnResult = true;
+
         }
 
         return returnResult;
@@ -222,24 +224,74 @@ public class BinaryTree <E extends Comparable<E>> {
         }
     }
 
-    public void printNonRecursive() {
-        Node currentNode = root;
+    //Not working yet
 
-        Deque<Node> queue = null;
+    public void printIterative() {
+        Node currentNode;
+        Deque<Node> stack = new LinkedList<>();
+        stack.addFirst(root);
 
-        while(currentNode != null) {
-            queue.add(currentNode);
-            if(currentNode.left != null) {
-                currentNode = currentNode.left;
+        while(!stack.isEmpty()) {
+            currentNode = stack.getFirst();
+
+            if(currentNode.left!= null)
+            {
+                stack.addFirst(currentNode.left);
             }
-            else if(currentNode.right != null) {
-                currentNode = currentNode.right;
+
+            else if(currentNode.right!= null)
+            {
+                stack.addFirst(currentNode.right);
             }
+
             else
             {
                 System.out.println(currentNode.data);
-                queue.removeLast();
+                stack.removeFirst();
             }
+        }
+    }
+
+    public void printPreIterative() {
+        Node currentNode;
+        Deque<Node> stack = new LinkedList<>();
+        stack.addFirst(root);
+
+        while(!stack.isEmpty()){
+            currentNode = stack.removeFirst();
+
+            System.out.println(currentNode.data);
+            if(currentNode.right!= null)
+            {
+                stack.addFirst(currentNode.right);
+            }
+            if(currentNode.left!= null)
+            {
+                stack.addFirst(currentNode.left);
+            }
+        }
+    }
+
+    //Not working
+
+    public void printPostIterative() {
+        Node currentNode;
+        Deque<Node> stack = new LinkedList<>();
+        stack.addFirst(root);
+
+        while(!stack.isEmpty()) {
+            currentNode = stack.removeFirst();
+
+            if(currentNode.right!= null)
+            {
+                stack.addFirst(currentNode.right);
+            }
+            if(currentNode.left!= null)
+            {
+                stack.addFirst(currentNode.left);
+            }
+
+            System.out.println(currentNode.data);
         }
     }
 }

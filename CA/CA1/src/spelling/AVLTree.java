@@ -65,6 +65,44 @@ public class AVLTree<E extends Comparable<E>> {
         }
     }
 
+    public boolean containsIterative (E word) {
+        boolean results = false;
+        int result;
+
+        if(root != null) {
+            Node currentNode = root;
+
+            while(currentNode != null) {
+                result = currentNode.key.compareTo(word);
+
+                if(result > 0) {
+                    //Go Left
+                    if(currentNode.left == null) {
+                        currentNode = null;
+                    }
+                    else {
+                        currentNode = currentNode.left;
+                    }
+                }
+                else if (result < 0) {
+                    //Go Right
+                    if(currentNode.right == null){
+                        currentNode = null;
+                    }
+                    else {
+                        currentNode = currentNode.right;
+                    }
+                }
+
+                else {
+                    results = true;
+                    currentNode = null;
+                }
+            }
+        }
+        return results;
+    }
+
     public boolean insert(E key) {
         if (root == null) {
             root = new Node(key, null);

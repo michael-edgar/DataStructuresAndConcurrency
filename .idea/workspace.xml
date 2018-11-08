@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="414787f4-c9be-480d-b04c-0d38a8b91de0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Labs/Lab6/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/Lab6/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA/CA1/Tests/spelling/AVLTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/CA1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/CA1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/out/production/CA1/gui/TextEditorFrame$ButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/out/production/CA1/gui/TextEditorFrame$ButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/out/production/CA1/gui/TextEditorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/out/production/CA1/gui/TextEditorMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/AVLTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/DictionaryAVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/DictionaryAVLTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/DictionaryArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/DictionaryArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/DictionaryLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/DictionaryLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/DictionaryTreeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/DictionaryTreeSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/SpellChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/CA/CA1/out/production/CA1/spelling/SpellChecker.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +26,8 @@
     <session id="1325905335">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -25,7 +37,7 @@
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Labs/Lab6/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1478">
-              <caret line="256" selection-start-line="256" selection-end-line="256" />
+            <state relative-caret-position="85">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,7 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,17 +159,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataStructuresAndConcurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructuresAndConcurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab6" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -303,6 +309,7 @@
       <workItem from="1540204992465" duration="4542000" />
       <workItem from="1541417064172" duration="5043000" />
       <workItem from="1541422309375" duration="369000" />
+      <workItem from="1541696834520" duration="381000" />
     </task>
     <servers />
   </component>
@@ -339,12 +346,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31588000" />
+    <option name="totallyTimeSpent" value="31969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29540482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29530916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -518,20 +526,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Labs/Lab6/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Labs/Lab6/BinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs/Lab6/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1478">
-          <caret line="256" selection-start-line="256" selection-end-line="256" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

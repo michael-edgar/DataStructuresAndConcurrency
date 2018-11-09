@@ -124,10 +124,10 @@ public class TextEditorFrame extends JFrame {
                 String text = textArea.getText();
                 SpellChecker spellChecker = new SpellChecker(dictionary);
                 long start = System.currentTimeMillis();
+                System.out.println(start);
                 List<String> list = spellChecker.doSpellCheck(text);
                 long end = System.currentTimeMillis();
                 long difference = end - start;
-                System.out.println(start);
                 System.out.println(end);
                 System.out.println(difference);
                 System.out.println("Misspellings:");

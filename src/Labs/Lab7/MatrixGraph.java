@@ -1,11 +1,16 @@
 package Lab7;
 
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class MatrixGraph extends AbstractGraph {
     //entries in matrix are 1.0 or 0.0
     //1.0 indicates an edge.
     //0.0 indicates no edge
 
     private double[][] matrix;
+    private State vertexState;
 
     public MatrixGraph(int nV, boolean direct){
         super(nV, direct);
@@ -50,6 +55,21 @@ public class MatrixGraph extends AbstractGraph {
 
     public void breadthFirstTraversal(int start){
         //Output the vertices in breadth first order
+        Queue<Integer> graphQueue = new LinkedList();
+        ((LinkedList<Integer>) graphQueue).addLast(start);
+        System.out.println(start);
+        for(int i = 0; i <= (matrix.length-1); i++)
+        {
+            if(isEdge(start, i))
+            {
+                ((LinkedList<Integer>) graphQueue).addLast(i);
+            }
+        }
+        ((LinkedList<Integer>) graphQueue).removeFirst();
+        if(!graphQueue.isEmpty())
+        {
+            breadthFirstTraversal(((LinkedList<Integer>) graphQueue).getFirst());
+        }
     }
 
     public void depthFirstTraversal(int start){

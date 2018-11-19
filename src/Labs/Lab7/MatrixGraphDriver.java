@@ -18,7 +18,7 @@ public class MatrixGraphDriver {
         edge = new Edge(2,4);
         directedGraph.insert(edge);
 
-        MatrixGraph undirectedGraph = new MatrixGraph(5, false);
+        MatrixGraph undirectedGraph = new MatrixGraph(8, false);
 
         edge = new Edge(0,1);
         undirectedGraph.insert(edge);
@@ -26,13 +26,24 @@ public class MatrixGraphDriver {
         edge = new Edge(0,2);
         undirectedGraph.insert(edge);
 
-        edge = new Edge(0,3);
+        edge = new Edge(0,6);
         undirectedGraph.insert(edge);
 
-        edge = new Edge(1,2);
+        edge = new Edge(2,3);
         undirectedGraph.insert(edge);
 
-        edge = new Edge(2,4);
+        edge = new Edge(3,4);
         undirectedGraph.insert(edge);
+
+        edge = new Edge(3,5);
+        undirectedGraph.insert(edge);
+
+        edge = new Edge(4,6);
+        undirectedGraph.insert(edge);
+
+        edge = new Edge(6,7);
+        undirectedGraph.insert(edge);
+
+        undirectedGraph.breadthFirstTraversal(0);
     }
 }

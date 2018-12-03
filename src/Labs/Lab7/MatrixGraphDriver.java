@@ -45,5 +45,7 @@ public class MatrixGraphDriver {
         undirectedGraph.insert(edge);
 
         undirectedGraph.breadthFirstTraversal(0);
+        System.out.println("\n");
+        undirectedGraph.depthFirstTraversal(0);
     }
 }

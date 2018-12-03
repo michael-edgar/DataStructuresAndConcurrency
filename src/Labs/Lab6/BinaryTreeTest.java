@@ -36,6 +36,6 @@ public class BinaryTreeTest {
         System.out.println("\nPost Recursion");
         myTree.printPost();
         System.out.println("\nPost Iterative");
-        myTree.printPostIterative();
+        //myTree.printPostIterative();
     }
 }

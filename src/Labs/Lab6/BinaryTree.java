@@ -282,7 +282,7 @@ public class BinaryTree <E extends Comparable<E>> {
 
     //Not working
 
-    public void printPostIterative() {
+    /*public void printPostIterative() {
         Node currentNode;
         Deque<Node> stack = new LinkedList<>();
         stack.addFirst(root);
@@ -301,5 +301,5 @@ public class BinaryTree <E extends Comparable<E>> {
 
             System.out.println(currentNode.data);
         }
-    }
+    }*/
 }

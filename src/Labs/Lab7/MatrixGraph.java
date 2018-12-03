@@ -55,24 +55,45 @@ public class MatrixGraph extends AbstractGraph {
 
     public void breadthFirstTraversal(int start){
         //Output the vertices in breadth first order
-        Queue<Integer> graphQueue = new LinkedList();
-        ((LinkedList<Integer>) graphQueue).addLast(start);
-        System.out.println(start);
-        for(int i = 0; i <= (matrix.length-1); i++)
-        {
-            if(isEdge(start, i))
-            {
-                ((LinkedList<Integer>) graphQueue).addLast(i);
-            }
+        State[] states = new State[getNumVertices()];
+        for(int i=0; i < states.length; i++) {
+            states[i] = State.NOT_VISITED;
         }
-        ((LinkedList<Integer>) graphQueue).removeFirst();
-        if(!graphQueue.isEmpty())
-        {
-            breadthFirstTraversal(((LinkedList<Integer>) graphQueue).getFirst());
+        LinkedList queue = new LinkedList();
+        queue.addFirst(start);
+        while(!queue.isEmpty()) {
+            int vertex = (int)queue.removeLast();
+            System.out.print(vertex + " ");
+            states[vertex] = State.VISITED;
+
+            for(int i=0; i<states.length; i++) {
+                if(isEdge(vertex, i) && states[i] == State.NOT_VISITED) {
+                    queue.addFirst(i);
+                    states[i] = State.WAITING;
+                }
+            }
         }
     }
 
     public void depthFirstTraversal(int start){
         //Output the vertices in depth first order
+        State[] states = new State[getNumVertices()];
+        for(int i=0; i < states.length; i++) {
+            states[i] = State.NOT_VISITED;
+        }
+        LinkedList stack = new LinkedList();
+        stack.push(start);
+        while(!stack.isEmpty()) {
+            int vertex = (int)stack.pop();
+            System.out.print(vertex + " ");
+            states[vertex] = State.VISITED;
+
+            for(int i=0; i<states.length; i++) {
+                if(isEdge(vertex, i) && states[i] == State.NOT_VISITED) {
+                    stack.push(i);
+                    states[i] = State.WAITING;
+                }
+            }
+        }
     }
 }
